@@ -29,3 +29,22 @@
     height: 100%;
     object-fit: cover;
 }
+
+.carousel__nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.carousel__nav--prev {
+    left: 0;
+}
+.carousel__nav--next {
+    right: 0;
+}
