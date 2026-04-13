@@ -1,1 +1,18 @@
+#header {
+    display: flex;
+}
 
+#Logo {
+  width: auto;
+  height: 80px;
+  align-items: left;
+}
+
+ul {
+  display: flex;
+  list-style: none; 
+  gap: 50px;
+  text-align: right;
+  font-size: 30px;
+  font-family: Impact;
+}
