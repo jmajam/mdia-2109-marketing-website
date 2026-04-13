@@ -89,6 +89,12 @@ ul {
   background: linear-gradient(to bottom, #0000, #C1272D, #1B0303);
 }
 
+#game {
+    background-image: url('project\ images\/stairs.png');
+    background-size: cover;
+    size
+}
+
 #game h2 {
   font-size: 2rem;
   font-family: Impact;
