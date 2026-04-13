@@ -29,7 +29,7 @@ ul {
 }
 
 #home h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: bold;
   font-style: italic;
   font-family:'Times New Roman', Times, serif;
@@ -75,4 +75,25 @@ ul {
 
 #gradient {
   background: linear-gradient(to bottom, #0000, #C1272D, #1B0303);
+}
+
+#game h2 {
+  font-size: 2rem;
+  font-family: Impact;
+  text-align: center;
+  color: #C1272D;
+}
+
+#game h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+#game p {
+  font-size: 1rem;
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
 }
