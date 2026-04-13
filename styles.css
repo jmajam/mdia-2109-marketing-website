@@ -7,6 +7,14 @@
     margin: auto;
 }
 
+.carousel__title {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
 .carousel__track {
     display: flex;
     transition: transform 0.5s ease;
@@ -30,6 +38,18 @@
 
 .slide__image {
     width: 60%;
+}
+
+.slide__title {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.slide__text {
+    font-family: "Aleo", serif;
 }
 
 .slide__image img {
