@@ -52,3 +52,27 @@ ul {
     width: auto;
     height: 30rem;
 }
+
+#team h2 {
+  font-size: 2rem;
+  font-family: Impact;
+  text-align: center;
+}
+
+#team h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+#team .team-members {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+#gradient {
+  background: linear-gradient(to bottom, #0000, #C1272D, #1B0303);
+}
