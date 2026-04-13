@@ -1,18 +1,54 @@
 #header {
     display: flex;
+    justify-content: space-between;
 }
 
 #Logo {
   width: auto;
-  height: 80px;
+  height: 7rem;
   align-items: left;
 }
 
 ul {
   display: flex;
   list-style: none; 
-  gap: 50px;
+  gap: 3rem;
   text-align: right;
-  font-size: 30px;
+  font-size: 2rem;
   font-family: Impact;
+}
+
+#home {
+    background-color: #F7F5F3;
+}
+
+#home h2 {
+  font-size: 2rem;
+  font-family: Impact;
+  text-align: center;
+}
+
+#home h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif;
+  text-align: left;
+}
+
+#home p {
+  font-size: 1rem;
+  font-family:'Times New Roman', Times, serif;
+  text-align: left;
+}
+
+#home img {
+    width: auto;
+    height: 5rem;
+    align-items: left;
+}
+
+#home #ZombieTypes #Zombies{
+    width: auto;
+    height: 30rem;
 }
