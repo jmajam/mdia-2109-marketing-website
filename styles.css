@@ -1,53 +1,57 @@
+:root {
+    --text-red: #c1272d;
+}
+
 #header {
     display: flex;
     justify-content: space-between;
 }
 
 #Logo {
-  width: auto;
-  height: 7rem;
-  align-items: left;
+    width: auto;
+    height: 7rem;
+    align-items: left;
 }
 
 ul {
-  display: flex;
-  list-style: none; 
-  gap: 3rem;
-  text-align: right;
-  font-size: 2rem;
-  font-family: Impact;
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    text-align: right;
+    font-size: 2rem;
+    font-family: Impact;
 }
 
 #home {
-    background-color: #F7F5F3;
+    background-color: #f7f5f3;
 }
 
 #home h2 {
-  font-size: 2rem;
-  font-family: Impact;
-  text-align: center;
+    font-size: 2rem;
+    font-family: Impact;
+    text-align: center;
 }
 
 #home h3 {
-  font-size: 1.25rem;
-  font-weight: bold;
-  font-style: italic;
-  font-family:'Times New Roman', Times, serif;
-  text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
 }
 
 #home #alignment {
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: space-between;
 }
 
 #home p {
-  font-size: 1.25rem;
-  font-family:'Times New Roman', Times, serif;
-  text-align: left;
-  padding: 2rem;
-  margin-top: -3rem;
+    font-size: 1.25rem;
+    font-family: "Times New Roman", Times, serif;
+    text-align: left;
+    padding: 2rem;
+    margin-top: -3rem;
 }
 
 #home img {
@@ -56,7 +60,7 @@ ul {
     align-items: left;
 }
 
-#home #ZombieTypes #Zombies{
+#home #ZombieTypes #Zombies {
     width: auto;
     height: 30rem;
     display: block;
@@ -65,94 +69,171 @@ ul {
 }
 
 #team h2 {
-  font-size: 2rem;
-  font-family: Impact;
-  text-align: center;
+    font-size: 2rem;
+    font-family: Impact;
+    text-align: center;
 }
 
 #team h3 {
-  font-size: 1.25rem;
-  font-weight: bold;
-  font-style: italic;
-  font-family:'Times New Roman', Times, serif;
-  text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
 }
 
 #team .team-members {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
 }
 
 #gradient {
-  background: linear-gradient(to bottom, #0000, #C1272D, #1B0303);
+    background: linear-gradient(to bottom, #0000, var(--text-red), #1b0303);
+    width: 100vw;
 }
 
-#game {
-    background-image: url('project\ images\/stairs.png');
-    background-size: cover;
+.game {
+    background-image: url("project\ images\/stairs.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 0;
+}
 
+.game_heading {
+    text-align: center;
+    margin-bottom: 5vh;
+    margin-top: 5rem;
+}
+
+.game_heading__title {
+    font-size: 2rem;
+    font-family: Impact;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.game_heading__subtitle {
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+.game_heading__description {
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    color: var(--text-red);
+    font-weight: 700;
+}
+
+.game__summary {
+    font-size: 1.25rem;
+    font-family: "Aleo", serif;
+    font-weight: 700;
+}
+
+.game__summary__1 {
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    width: 25%;
+}
+
+.game__summary__2 {
+    position: absolute;
+    left: 22%;
+    top: 15%;
+    width: 25%;
+}
+
+.game__summary__3 {
+    position: absolute;
+    left: 2%;
+    top: 40%;
+    width: 25%;
+}
+
+.game__summary__4 {
+    position: absolute;
+    right: 22%;
+    top: 45%;
+    width: 25%;
+}
+
+.game__summary__5 {
+    position: absolute;
+    right: 5%;
+    top: 70%;
+    width: 25%;
 }
 
 #game h2 {
-  font-size: 2rem;
-  font-family: Impact;
-  text-align: center;
-  color: #C1272D;
+    font-size: 2rem;
+    font-family: Impact;
+    text-align: center;
+    color: var(--text-red);
 }
 
 #game h3 {
-  font-size: 1.25rem;
-  font-weight: bold;
-  font-style: italic;
-  font-family:'Times New Roman', Times, serif;
-  text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
 }
 
 #game p {
-  font-size: 1rem;
-  font-family:'Times New Roman', Times, serif;
-  text-align: center;
+    font-size: 1rem;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
 }
 
 #wishlist h2 {
-  font-size: 2rem;
-  font-family: Impact;
-  text-align: center;
-  color: #F7F5F3;
+    font-size: 2rem;
+    font-family: Impact;
+    text-align: center;
+    color: #f7f5f3;
 }
 
 #wishlist h3 {
-  font-size: 1.25rem;
-  font-weight: bold;
-  font-style: italic;
-  font-family:'Times New Roman', Times, serif;
-  text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
 }
 
 #wishlist p {
-  font-size: 1rem;
-  font-family:'Times New Roman', Times, serif;
-  text-align: center;
-  color: #F7F5F3;
+    font-size: 1rem;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    color: #f7f5f3;
 }
 
 #wishlist #LogoWishlist {
-  width: auto;
-  height: 7rem;
-  align-items: center;
+    width: auto;
+    height: 7rem;
+    align-items: center;
 }
 
 #wishlist-button {
-  display: block;
-  margin: 0 auto;
-  padding: 1rem 2rem;
-  font-size: 1.25rem;
-  font-family: Impact;
-  background-color: #C1272D;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    font-family: Impact;
+    background-color: var(--text-red);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
