@@ -33,13 +33,21 @@ ul {
   font-weight: bold;
   font-style: italic;
   font-family:'Times New Roman', Times, serif;
-  text-align: left;
+  text-align: center;
+}
+
+#home #alignment {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
 }
 
 #home p {
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-family:'Times New Roman', Times, serif;
   text-align: left;
+  padding: 2rem;
+  margin-top: -3rem;
 }
 
 #home img {
@@ -51,6 +59,9 @@ ul {
 #home #ZombieTypes #Zombies{
     width: auto;
     height: 30rem;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
 }
 
 #team h2 {
@@ -69,8 +80,9 @@ ul {
 
 #team .team-members {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
   gap: 2rem;
+  justify-content: center;
 }
 
 #gradient {
@@ -96,4 +108,45 @@ ul {
   font-size: 1rem;
   font-family:'Times New Roman', Times, serif;
   text-align: center;
+}
+
+#wishlist h2 {
+  font-size: 2rem;
+  font-family: Impact;
+  text-align: center;
+  color: #F7F5F3;
+}
+
+#wishlist h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+#wishlist p {
+  font-size: 1rem;
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  color: #F7F5F3;
+}
+
+#wishlist #LogoWishlist {
+  width: auto;
+  height: 7rem;
+  align-items: center;
+}
+
+#wishlist-button {
+  display: block;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  font-family: Impact;
+  background-color: #C1272D;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
