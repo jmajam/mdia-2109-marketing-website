@@ -3,21 +3,21 @@
 }
 
 html {
-      width: 100vw;
+    width: 100vw;
 }
 
-.header {
+.header__ui {
     display: flex;
     justify-content: space-between;
 }
 
-.Logo {
+.logo__7thHell {
     width: auto;
     height: 7rem;
     align-items: left;
 }
 
-ul {
+.nav__links {
     display: flex;
     list-style: none;
     gap: 3rem;
@@ -26,17 +26,17 @@ ul {
     font-family: Impact;
 }
 
-.home {
+.home__ui {
     background-color: #f7f5f3;
 }
 
-.home h2 {
+.home__ui h2 {
     font-size: 2rem;
     font-family: Impact;
     text-align: center;
 }
 
-.home h3 {
+.home__ui h3 {
     font-size: 1.25rem;
     font-weight: bold;
     font-style: italic;
@@ -44,13 +44,13 @@ ul {
     text-align: center;
 }
 
-.home .alignment {
+.home__ui .alignment__ui {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.home p {
+.home__ui p {
     font-size: 1.25rem;
     font-family: "Times New Roman", Times, serif;
     text-align: left;
@@ -58,13 +58,13 @@ ul {
     margin-top: -3rem;
 }
 
-.home img {
+.home__ui img {
     width: auto;
     height: 5rem;
     align-items: left;
 }
 
-.home .ZombieTypes .Zombies {
+.home__ui .zombie__section .zombies__picture {
     width: auto;
     height: 30rem;
     display: block;
@@ -77,17 +77,17 @@ ul {
     aspect-ratio: 1/1;
 }
 
-.team {
+.team__section {
   margin-top: 10rem;
 }
 
-.team h2 {
+.team__section h2 {
     font-size: 2rem;
     font-family: Impact;
     text-align: center;
 }
 
-.team h3 {
+.team__section h3 {
     font-size: 1.25rem;
     font-weight: bold;
     font-style: italic;
@@ -95,19 +95,19 @@ ul {
     text-align: center;
 }
 
-.team .team-members {
+.team__section .team__members {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
 }
 
-.gradient {
+.gradient__section {
     background: linear-gradient(to bottom, #0000, var(--text-red), #1b0303);
     width: 100vw;
 }
 
-.game {
+.game__section {
     background-image: url("project\ images\/stairs.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -117,20 +117,20 @@ ul {
     margin-top: 0;
 }
 
-.game_heading {
+.game__heading {
     text-align: center;
     margin-bottom: 5vh;
     margin-top: 5rem;
 }
 
-.game_heading__title {
+.game__heading__title {
     font-size: 2rem;
     font-family: Impact;
     text-align: center;
     margin-bottom: 0;
 }
 
-.game_heading__subtitle {
+.game__heading__subtitle {
     font-size: 1.25rem;
     font-weight: bold;
     font-style: italic;
@@ -138,7 +138,7 @@ ul {
     text-align: center;
 }
 
-.game_heading__description {
+.game__heading__description {
     font-size: 1.25rem;
     font-weight: bold;
     font-style: italic;
@@ -189,14 +189,14 @@ ul {
     width: 25%;
 }
 
-.game h2 {
+.game__section h2 {
     font-size: 2rem;
     font-family: Impact;
     text-align: center;
     color: var(--text-red);
 }
 
-.game h3 {
+.game__section h3 {
     font-size: 1.25rem;
     font-weight: bold;
     font-style: italic;
@@ -204,20 +204,20 @@ ul {
     text-align: center;
 }
 
-.game p {
+.game__section p {
     font-size: 1rem;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
 
-.wishlist h2 {
+.wishlist__section h2 {
     font-size: 2rem;
     font-family: Impact;
     text-align: center;
     color: #f7f5f3;
 }
 
-.wishlist h3 {
+.wishlist__section h3 {
     font-size: 1.25rem;
     font-weight: bold;
     font-style: italic;
@@ -225,20 +225,20 @@ ul {
     text-align: center;
 }
 
-.wishlist p {
+.wishlist__section p {
     font-size: 1rem;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
     color: #f7f5f3;
 }
 
-.wishlist .LogoWishlist {
+.wishlist__section .logo__wishlist {
     width: auto;
     height: 7rem;
     align-items: center;
 }
 
-.wishlist-button {
+.wishlist__button {
     display: block;
     margin: 0 auto;
     padding: 1rem 2rem;
