@@ -1,5 +1,5 @@
 :root {
-    --background-2: #f7f5f3;
+    --carousel-background: #f7f5f3;
 }
 .carousel {
     position: relative;
@@ -27,7 +27,7 @@
     display: flex;
     flex-direction: row;
     max-height: 40vh;
-    background-color: var(--background-2);
+    background-color: var(--carousel-background);
 }
 
 .slide__content,
