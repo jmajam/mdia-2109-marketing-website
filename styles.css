@@ -1,1 +1,22 @@
+.socials {
+    text-align: center;
+    padding: 40px;
+    background-color: #561f1f;
+}
 
+.socials h2 {
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 24px;
+}
+
+.social-links a {
+    font-size: 28px;
+    color: black;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #1da1f2; /* Twitter blue */
+}
