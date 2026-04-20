@@ -6,12 +6,12 @@ html {
       width: 100vw;
 }
 
-#header {
+.header {
     display: flex;
     justify-content: space-between;
 }
 
-#Logo {
+.Logo {
     width: auto;
     height: 7rem;
     align-items: left;
@@ -26,17 +26,17 @@ ul {
     font-family: Impact;
 }
 
-#home {
+.home {
     background-color: #f7f5f3;
 }
 
-#home h2 {
+.home h2 {
     font-size: 2rem;
     font-family: Impact;
     text-align: center;
 }
 
-#home h3 {
+.home h3 {
     font-size: 1.25rem;
     font-weight: bold;
     font-style: italic;
@@ -44,13 +44,13 @@ ul {
     text-align: center;
 }
 
-#home #alignment {
+.home .alignment {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#home p {
+.home p {
     font-size: 1.25rem;
     font-family: "Times New Roman", Times, serif;
     text-align: left;
@@ -58,13 +58,13 @@ ul {
     margin-top: -3rem;
 }
 
-#home img {
+.home img {
     width: auto;
     height: 5rem;
     align-items: left;
 }
 
-#home #ZombieTypes #Zombies {
+.home .ZombieTypes .Zombies {
     width: auto;
     height: 30rem;
     display: block;
@@ -77,17 +77,17 @@ ul {
     aspect-ratio: 1/1;
 }
 
-#team {
+.team {
   margin-top: 10rem;
 }
 
-#team h2 {
+.team h2 {
     font-size: 2rem;
     font-family: Impact;
     text-align: center;
 }
 
-#team h3 {
+.team h3 {
     font-size: 1.25rem;
     font-weight: bold;
     font-style: italic;
@@ -95,14 +95,14 @@ ul {
     text-align: center;
 }
 
-#team .team-members {
+.team .team-members {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
 }
 
-#gradient {
+.gradient {
     background: linear-gradient(to bottom, #0000, var(--text-red), #1b0303);
     width: 100vw;
 }
@@ -189,14 +189,14 @@ ul {
     width: 25%;
 }
 
-#game h2 {
+.game h2 {
     font-size: 2rem;
     font-family: Impact;
     text-align: center;
     color: var(--text-red);
 }
 
-#game h3 {
+.game h3 {
     font-size: 1.25rem;
     font-weight: bold;
     font-style: italic;
@@ -204,20 +204,20 @@ ul {
     text-align: center;
 }
 
-#game p {
+.game p {
     font-size: 1rem;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
 
-#wishlist h2 {
+.wishlist h2 {
     font-size: 2rem;
     font-family: Impact;
     text-align: center;
     color: #f7f5f3;
 }
 
-#wishlist h3 {
+.wishlist h3 {
     font-size: 1.25rem;
     font-weight: bold;
     font-style: italic;
@@ -225,20 +225,20 @@ ul {
     text-align: center;
 }
 
-#wishlist p {
+.wishlist p {
     font-size: 1rem;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
     color: #f7f5f3;
 }
 
-#wishlist #LogoWishlist {
+.wishlist .LogoWishlist {
     width: auto;
     height: 7rem;
     align-items: center;
 }
 
-#wishlist-button {
+.wishlist-button {
     display: block;
     margin: 0 auto;
     padding: 1rem 2rem;
