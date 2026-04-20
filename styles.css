@@ -6,6 +6,16 @@ html {
     width: 100vw;
 }
 
+body {
+    overflow-x: hidden;
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 .header__ui {
     display: flex;
     justify-content: space-between;
