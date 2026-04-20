@@ -2,18 +2,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const areas = document.querySelectorAll(".trigger-area");
 
     areas.forEach((area) => {
-        const type = area.dataset.trigger;
+        const isGlow = area.classList.contains("trigger-area--glow");
 
-        if (type === "fog") {
-            area.addEventListener("mouseenter", () => {
-                area.classList.add("fog-active");
-            });
-            area.addEventListener("mouseleave", () => {
-                area.classList.remove("fog-active");
-            });
-        }
-
-        if (type === "glow") {
+        if (isGlow) {
             area.addEventListener("click", () => {
                 area.classList.toggle("glow-active");
             });
@@ -23,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     window.addEventListener("scroll", () => {
         areas.forEach((area) => {
             const rect = area.getBoundingClientRect();
-            if (rect.top < window.innerHeight && rect.bottom > 0) {
+            if (rect.top < window.innerHeight && rect.bottom > -10) {
                 area.classList.add("scroll-active");
             } else {
                 area.classList.remove("scroll-active");
