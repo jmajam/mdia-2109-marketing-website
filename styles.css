@@ -18,5 +18,16 @@
 }
 
 .social-links a:hover {
-    color: #1da1f2; /* Twitter blue */
+    color: #1da1f2;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
 }
