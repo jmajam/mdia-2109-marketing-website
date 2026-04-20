@@ -1,1 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: black;
+    padding: 20px;
+    color: black;
+}
+
+main {
+    max-width: 100%;
+}
+
+.characters-section {
+    margin-bottom: 40px;
+}
+
+.characters-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+.characters-scrollable {
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+    scroll-behavior: smooth;
+}
+
+.characters-scrollable::-webkit-scrollbar {
+    display: none;
+}
+
+.character-card {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    min-width: 350px;
+    max-width: 350px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.character-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.character-image {
+    width: 140px;
+    height: 140px;;
+}
+
+.character-info {
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+}
 
