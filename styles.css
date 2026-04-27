@@ -20,13 +20,14 @@
 .carousel__track {
     display: flex;
     transition: transform 0.5s ease;
+    height: auto;
 }
 
 .carousel__slide {
     min-width: 100%;
     display: flex;
     flex-direction: row;
-    max-height: 40vh;
+    /* max-height: 40vh; */
     background-color: var(--carousel-background);
 }
 
@@ -68,7 +69,7 @@
 
 .carousel__nav {
     position: absolute;
-    top: 50%;
+    top: 60%;
     transform: translateY(-50%);
     background: #6b2c40;
     color: white;
@@ -84,4 +85,56 @@
 }
 .carousel__nav--next {
     right: 0;
+}
+
+@media (max-width: 64em) {
+    /* laptops and small desktops (≈1024px) */
+    body {
+        background-color: red;
+    }
+}
+
+@media (max-width: 48em) {
+    body {
+        background-color: blue;
+    }
+
+    .slide__title {
+        margin-bottom: 0;
+        line-height: 90%;
+    }
+
+    .carousel__nav {
+        font-size: 1.5rem;
+        padding: 0.75rem;
+    }
+}
+
+@media (max-width: 37.5em) {
+    /* phones (≈600px) */
+    body {
+        background-color: yellow;
+    }
+
+    .carousel__title {
+        text-align: center;
+    }
+
+    .carousel__slide {
+        flex-direction: column-reverse;
+    }
+
+    .slide__content {
+        width: 100%;
+    }
+
+    .slide__image {
+        width: 100%;
+    }
+
+    .slide__content,
+    .slide__image {
+        padding: 1rem 1rem 0 1rem;
+        box-sizing: border-box;
+    }
 }
