@@ -19,6 +19,8 @@ html, body {
 .header__ui {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
 }
 
 .logo__7thHell {
@@ -34,6 +36,8 @@ html, body {
     text-align: right;
     font-size: 2rem;
     font-family: Impact;
+    align-items: center;
+    padding: 1rem 2rem;
 }
 
 .home__ui {
