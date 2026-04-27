@@ -2,18 +2,15 @@
     --text-red: #c1272d;
 }
 
-html {
-    width: 100vw;
-}
-
-body {
-    overflow-x: hidden;
+* {
+    box-sizing: border-box;
 }
 
 html, body {
     width: 100%;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .header__ui {
@@ -21,11 +18,12 @@ html, body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
+    width: 100%;
 }
 
 .logo__7thHell {
     width: auto;
-    height: 7rem;
+    height: 10vh;
     align-items: left;
 }
 
@@ -81,12 +79,11 @@ html, body {
 .home__ui .zombie__section .zombies__picture {
     max-width: 100%;
     height: auto;
-    display: block
+    display: block;
 }
 
 .team__member__image {
     width: 10vw;
-    aspect-ratio: 1/1;
 }
 
 .team__section {
@@ -116,7 +113,7 @@ html, body {
 
 .gradient__section {
     background: linear-gradient(to bottom, #0000, var(--text-red), #1b0303);
-    width: 100vw;
+    width: 100%;
 }
 
 .game__section {
@@ -124,7 +121,7 @@ html, body {
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     margin-top: 0;
 }
@@ -261,4 +258,25 @@ html, body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/* Desktop default styles here */
+
+@media (max-width: 64em) {
+  /* laptops and small desktops (≈1024px) */
+}
+
+@media (max-width: 48em) {
+  /* tablets (≈768px) */
+  .header__ui {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .nav__links {
+    gap:1.5rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  /* phones (≈600px) */
 }
