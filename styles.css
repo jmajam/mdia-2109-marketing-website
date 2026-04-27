@@ -75,11 +75,9 @@ html, body {
 }
 
 .home__ui .zombie__section .zombies__picture {
-    width: auto;
-    height: 30rem;
-    display: block;
-    margin-left: auto;
-    margin-right: 0;
+    max-width: 100%;
+    height: auto;
+    display: block
 }
 
 .team__member__image {
