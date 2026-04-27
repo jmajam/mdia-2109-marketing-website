@@ -89,16 +89,9 @@
 
 @media (max-width: 64em) {
     /* laptops and small desktops (≈1024px) */
-    body {
-        background-color: red;
-    }
 }
 
 @media (max-width: 48em) {
-    body {
-        background-color: blue;
-    }
-
     .slide__title {
         margin-bottom: 0;
         line-height: 90%;
@@ -112,9 +105,6 @@
 
 @media (max-width: 37.5em) {
     /* phones (≈600px) */
-    body {
-        background-color: yellow;
-    }
 
     .carousel__title {
         text-align: center;
