@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
-
+@font-face {
+    font-family: 'Dogica';
+    src: url('./fonts/dogica.ttf') format('truetype');
+}
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +9,7 @@
 }
 
 body {
-    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Dogica', sans-serif;
     background-color: black;
     padding: 20px;
     color: black;
