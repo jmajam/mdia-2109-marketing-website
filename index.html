@@ -10,48 +10,39 @@
     <body>
         <main>
             <section class="characters-section">
-                <h2>Characters</h2>
+                <!-- Fix 1: added class to h2 so CSS can target it directly -->
+                <h2 class="characters-section__title">Characters</h2>
+
+                <!-- Fix 2: all character cards are now inside ONE .characters-scrollable -->
                 <div class="characters-scrollable">
-                        <div class="character-card">
-                            <img src="./images/kim_placeholder.png" alt="kim_placeholder" class="character-image" />
-                            <div class="character-info">
-                                <div class="character-name">Kim</div>
-                                <div class="character-role">Main Character</div>
-                            </div>
+                    <div class="character-card">
+                        <img src="./images/kim_placeholder.png" alt="kim_placeholder" class="character-image" />
+                        <div class="character-info">
+                            <div class="character-name">Kim</div>
+                            <div class="character-role">Main Character</div>
                         </div>
-                </div>        
-
-                     <div class="characters-scrollable">
-                        <div class="character-card">
-                            <img src="./images/kim_placeholder.png" alt="kim_placeholder" class="character-image" />
-                            <div class="character-info">
-                                <div class="character-name">Meryl</div>
-                                <div class="character-role">Main Character</div>
-                            </div>
+                    </div>
+                    <div class="character-card">
+                        <img src="./images/kim_placeholder.png" alt="kim_placeholder" class="character-image" />
+                        <div class="character-info">
+                            <div class="character-name">Meryl</div>
+                            <div class="character-role">Main Character</div>
                         </div>
-                    </div>    
-
-                    <div class="characters-scrollable">
-                        <div class="character-card">
-                            <img src="./images/kim_placeholder.png" alt="kim_placeholder" class="character-image" />
-                            <div class="character-info">
-                                <div class="character-name">Judson</div>
-                                <div class="character-role">Main Antagonist/Boss</div>
-                            </div>
+                    </div>
+                    <div class="character-card">
+                        <img src="./images/kim_placeholder.png" alt="kim_placeholder" class="character-image" />
+                        <div class="character-info">
+                            <div class="character-name">Judson</div>
+                            <div class="character-role">Main Antagonist/Boss</div>
                         </div>
-                    </div>    
-
-                    <div class="characters-scrollable">
-                        <div class="character-card">
+                    </div>
+                    <div class="character-card">
                         <img src="./images/kim_placeholder.png" alt="kim_placeholder" class="character-image" />
                         <div class="character-info">
                             <div class="character-name">Dombis</div>
                             <div class="character-role">Boss</div>
                         </div>
-                        </div>
                     </div>
-
-                     <div class="characters-scrollable">
                     <div class="character-card">
                         <img src="./images/kim_placeholder.png" alt="kim_placeholder" class="character-image" />
                         <div class="character-info">
@@ -59,8 +50,8 @@
                             <div class="character-role">Boss</div>
                         </div>
                     </div>
-                    
                 </div>
+
             </section>
         </main>
     </body>
