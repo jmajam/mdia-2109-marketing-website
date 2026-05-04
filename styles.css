@@ -21,7 +21,7 @@ main {
     margin-bottom: 40px;
 }
 
-/* Fix 1: replaced .characters-section h2 with a direct class */
+
 .characters-section__title {
     font-size: 32px;
     margin-bottom: 20px;
@@ -41,10 +41,9 @@ main {
 
 .character-card {
     background: #fff;
-    border-radius: 8px;
     overflow: hidden;
     display: flex;
-    max-width: 350px; /* Fix 2: removed min-width since both were 350px */
+    width: 350px; 
     transition: all 0.3s ease;
     cursor: pointer;
     flex-shrink: 0;
@@ -52,12 +51,12 @@ main {
 
 .character-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 20px rgba(2, 215, 242, 0.3);
 }
 
 .character-image {
     width: 140px;
-    height: 140px; /* also fixed the double semicolon here */
+    height: 140px;
 }
 
 .character-info {
