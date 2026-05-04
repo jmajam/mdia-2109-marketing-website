@@ -260,6 +260,28 @@ html, body {
     cursor: pointer;
 }
 
+/* Unvisited link */
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* Visited link */
+a:visited {
+  color: black;
+}
+
+/* Mouse over link */
+a:hover {
+  color: #729AA1;
+  text-decoration: underline;
+}
+
+/* Selected link (while clicking) */
+a:active {
+  color: #DCCD93;
+}
+
 /* Desktop default styles here */
 
 @media (max-width: 64em) {
