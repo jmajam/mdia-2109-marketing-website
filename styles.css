@@ -17,7 +17,7 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 1rem;
     width: 100%;
 }
 
@@ -112,7 +112,7 @@ html, body {
 }
 
 .gradient__section {
-    background: linear-gradient(to bottom, #0000, var(--text-red), #1b0303);
+    background: linear-gradient(to bottom, #0000, var(--text-red), #350303);
     width: 100%;
 }
 
