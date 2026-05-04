@@ -1,6 +1,7 @@
 :root {
     --carousel-background: #f7f5f3;
 }
+
 .carousel {
     position: relative;
     overflow: hidden;
@@ -26,24 +27,22 @@
 .carousel__slide {
     min-width: 100%;
     display: flex;
-    flex-direction: row;
-    /* max-height: 40vh; */
+    flex-direction: column-reverse;
     background-color: var(--carousel-background);
 }
 
 .slide__content,
 .slide__image {
-    padding: 2rem;
+    padding: 1rem 1rem 0 1rem;
     box-sizing: border-box;
 }
 
 .slide__content {
-    width: 40%;
-    margin-left: 2vw;
+    width: 100%;
 }
 
 .slide__image {
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -55,6 +54,8 @@
     font-size: 2rem;
     text-align: center;
     margin-top: 0;
+    margin-bottom: 0;
+    line-height: 90%;
 }
 
 .slide__text {
@@ -74,9 +75,9 @@
     background: #6b2c40;
     color: white;
     border: none;
-    padding: 1rem;
+    padding: 0.75rem;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1.5rem;
     z-index: 10;
 }
 
@@ -87,44 +88,42 @@
     right: 0;
 }
 
-@media (max-width: 64em) {
-    /* laptops and small desktops (≈1024px) */
-}
-
-@media (max-width: 48em) {
-    .slide__title {
-        margin-bottom: 0;
-        line-height: 90%;
-    }
-
-    .carousel__nav {
-        font-size: 1.5rem;
-        padding: 0.75rem;
-    }
-}
-
-@media (max-width: 37.5em) {
-    /* phones (≈600px) */
-
+@media (min-width: 37.5em) {
     .carousel__title {
-        text-align: center;
+        text-align: left;
     }
 
     .carousel__slide {
-        flex-direction: column-reverse;
-    }
-
-    .slide__content {
-        width: 100%;
-    }
-
-    .slide__image {
-        width: 100%;
+        flex-direction: row;
     }
 
     .slide__content,
     .slide__image {
-        padding: 1rem 1rem 0 1rem;
-        box-sizing: border-box;
+        padding: 2rem;
     }
+
+    .slide__content {
+        width: 40%;
+        margin-left: 2vw;
+    }
+
+    .slide__image {
+        width: 60%;
+    }
+}
+
+@media (min-width: 48em) {
+    .slide__title {
+        margin-bottom: 0;
+        line-height: normal;
+    }
+
+    .carousel__nav {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 64em) {
+    /* Add any laptop/desktop‑specific overrides here */
 }
