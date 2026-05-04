@@ -1,5 +1,6 @@
 :root {
     --text-red: #c1272d;
+    font-family: "Atkinson Hyperlegible", sans-serif;
 }
 
 * {
@@ -33,7 +34,6 @@ html, body {
     gap: 3rem;
     text-align: right;
     font-size: 2rem;
-    font-family: Impact;
     align-items: center;
     padding: 1rem 2rem;
 }
@@ -44,7 +44,6 @@ html, body {
 
 .home__ui h2 {
     font-size: 2rem;
-    font-family: Impact;
     text-align: center;
 }
 
@@ -52,7 +51,6 @@ html, body {
     font-size: 1.25rem;
     font-weight: bold;
     font-style: italic;
-    font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
 
@@ -64,7 +62,6 @@ html, body {
 
 .home__ui p {
     font-size: 1.25rem;
-    font-family: "Times New Roman", Times, serif;
     text-align: left;
     padding: 2rem;
     margin-top: -3rem;
@@ -92,7 +89,6 @@ html, body {
 
 .team__section h2 {
     font-size: 2rem;
-    font-family: Impact;
     text-align: center;
 }
 
@@ -100,7 +96,6 @@ html, body {
     font-size: 1.25rem;
     font-weight: bold;
     font-style: italic;
-    font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
 
@@ -134,7 +129,6 @@ html, body {
 
 .game__heading__title {
     font-size: 2rem;
-    font-family: Impact;
     text-align: center;
     margin-bottom: 0;
 }
@@ -143,7 +137,6 @@ html, body {
     font-size: 1.25rem;
     font-weight: bold;
     font-style: italic;
-    font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
 
@@ -151,7 +144,6 @@ html, body {
     font-size: 1.25rem;
     font-weight: bold;
     font-style: italic;
-    font-family: "Times New Roman", Times, serif;
     text-align: center;
     color: var(--text-red);
     font-weight: 700;
@@ -159,7 +151,6 @@ html, body {
 
 .game__summary {
     font-size: 1.25rem;
-    font-family: "Aleo", serif;
     font-weight: 700;
 }
 
@@ -200,7 +191,6 @@ html, body {
 
 .game__section h2 {
     font-size: 2rem;
-    font-family: Impact;
     text-align: center;
     color: var(--text-red);
 }
@@ -209,19 +199,16 @@ html, body {
     font-size: 1.25rem;
     font-weight: bold;
     font-style: italic;
-    font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
 
 .game__section p {
     font-size: 1rem;
-    font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
 
 .wishlist__section h2 {
     font-size: 2rem;
-    font-family: Impact;
     text-align: center;
     color: #f7f5f3;
 }
@@ -230,13 +217,11 @@ html, body {
     font-size: 1.25rem;
     font-weight: bold;
     font-style: italic;
-    font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
 
 .wishlist__section p {
     font-size: 1rem;
-    font-family: "Times New Roman", Times, serif;
     text-align: center;
     color: #f7f5f3;
 }
@@ -252,7 +237,6 @@ html, body {
     margin: 0 auto;
     padding: 1rem 2rem;
     font-size: 1.25rem;
-    font-family: Impact;
     background-color: var(--text-red);
     color: white;
     border: none;
