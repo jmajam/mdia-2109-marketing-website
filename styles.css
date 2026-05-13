@@ -1,5 +1,7 @@
 :root {
     --carousel-background: #f7f5f3;
+    font-size: 16px;
+    font-family: "Atkinson Hyperlegible", sans-serif;
 }
 
 .carousel {
@@ -11,10 +13,9 @@
 }
 
 .carousel__title {
-    font-family: "Permanent Marker", cursive;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     margin-bottom: 0;
 }
 
@@ -48,18 +49,13 @@
 }
 
 .slide__title {
-    font-family: "Permanent Marker", cursive;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
-    font-size: 2rem;
+    font-size: 1.25rem;
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
     line-height: 90%;
-}
-
-.slide__text {
-    font-family: "Aleo", serif;
 }
 
 .slide__image img {
