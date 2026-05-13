@@ -61,9 +61,15 @@ body {
 	margin-bottom: 20px;
 }
 
-/* LOGO */
-.logo-large {
+.team-logo-img {
 	width: 200px;
+	height: auto;
+	margin-bottom: 12px;
+}
+
+.team-logo-row {
+	gap: 60px;
+	margin-bottom: 30px;
 }
 
 /* COLOURS */
@@ -74,7 +80,16 @@ body {
 
 .colour-grid {
 	display: flex;
+	flex-wrap: wrap;
 	gap: 20px;
+	justify-content: flex-start;
+}
+
+.colour-item {
+	flex: 0 0 auto;
+	min-width: 120px;
+	text-align: center;
+	font-weight: bold;
 }
 
 .swatch {
@@ -89,33 +104,148 @@ body {
 	border: 1px dashed #aaa;
 }
 
-/* TYPOGRAPHY */
-.type-sample {
-	margin-bottom: 20px;
+/* Global site styles */
+body {
+	font-family: Arial, sans-serif;
+	color: #111;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
 }
 
-/* BUTTONS */
-.btn {
-	padding: 12px 20px;
-	border: none;
-	cursor: pointer;
-	border-radius: 4px;
+header {
+	padding: 2rem;
+	border-bottom: 1px solid #ddd;
+}
+
+main {
+	padding: 2rem;
+}
+
+/* Typography section */
+.typography-section {
+	font-family: "Dogica", sans-serif;
+	background-color: #f9f9f9;
+	border: 1px solid #ddd;
+	padding: 3rem 2rem;
+	margin: 4rem 0;
+	border-radius: 8px;
+}
+
+.typography-section h2 {
+	font-family: "Dogica", sans-serif;
+	margin-bottom: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.type-samples h1 {
+	font-size: 48px;
+	line-height: 56px;
+	letter-spacing: 0.5px;
+}
+
+.type-samples h2 {
+	font-size: 40px;
+	line-height: 48px;
+	letter-spacing: 0.5px;
+}
+
+.type-samples h3 {
+	font-size: 32px;
+	line-height: 40px;
+	letter-spacing: 0.25px;
+}
+
+.type-samples h4 {
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: 0.25px;
+}
+
+.type-samples h5 {
+	font-size: 20px;
+	line-height: 28px;
+	letter-spacing: 0.15px;
+}
+
+.type-samples p {
 	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
 }
 
+.type-samples small {
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.4px;
+}
+
+/* Other content */
+.other-content {
+	margin-top: 4rem;
+}
+/* BUTTON SHOWCASE LAYOUT */
+.button-showcase {
+	display: flex;
+	gap: 40px;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+
+.button-card {
+	text-align: center;
+}
+
+/* BUTTON BASE */
+.btn {
+	padding: 14px 26px;
+	border: none;
+	border-radius: 6px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: 0.2s ease;
+}
+
+/* PRIMARY */
 .primary-btn {
-	background: #333;
+	background: #c1272d;
 	color: white;
 }
-
-.secondary-btn {
-	background: #ddd;
-	color: #222;
+.primary-btn:hover {
+	background: #a02024;
 }
 
-.button-row {
-	display: flex;
-	gap: 20px;
+/* SECONDARY */
+.secondary-btn {
+	background: #446077;
+	color: white;
+}
+.secondary-btn:hover {
+	background: #3a5266;
+}
+
+/* DANGER */
+.danger-btn {
+	background: #742828;
+	color: white;
+}
+.danger-btn:hover {
+	background: #5e1f1f;
+}
+
+/* DISABLED */
+.disabled-btn {
+	background: #bbb;
+	color: #666;
+	cursor: not-allowed;
+}
+
+/* LABEL UNDER BUTTON */
+.btn-label {
+	margin-top: 8px;
+	font-size: 14px;
+	color: #444;
 }
 
 /* COMPONENTS */
