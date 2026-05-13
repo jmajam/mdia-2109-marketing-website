@@ -2,6 +2,7 @@
     font-family: 'Dogica';
     src: url('./fonts/dogica.ttf') format('truetype');
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -19,10 +20,10 @@ main {
     max-width: 100%;
 }
 
+
 .characters-section {
     margin-bottom: 40px;
 }
-
 
 .characters-section__title {
     font-size: 32px;
@@ -30,22 +31,23 @@ main {
     color: whitesmoke;
 }
 
-.characters-scrollable {
+.characters-section__scrollable {
     display: flex;
     gap: 20px;
     padding: 10px 0;
     scroll-behavior: smooth;
 }
 
-.characters-scrollable::-webkit-scrollbar {
+.characters-section__scrollable::-webkit-scrollbar {
     display: none;
 }
+
 
 .character-card {
     background: #fff;
     overflow: hidden;
     display: flex;
-    width: 350px; 
+    width: 350px;
     transition: all 0.3s ease;
     cursor: pointer;
     flex-shrink: 0;
@@ -56,14 +58,18 @@ main {
     box-shadow: 0 0 20px rgba(2, 215, 242, 0.3);
 }
 
-.character-image {
+.character-card__image {
     width: 140px;
     height: 140px;
 }
 
-.character-info {
+.character-card__info {
     padding: 15px 20px;
     display: flex;
     flex-direction: column;
     font-size: 11px;
+}
+
+.character-card__role {
+    margin-top: 8px;
 }
