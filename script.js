@@ -1,3 +1,14 @@
+// Simple button feedback
+document.querySelectorAll(".btn").forEach((btn) => {
+	btn.addEventListener("click", () => {
+		console.log("Button clicked:", btn.textContent);
+	});
+});
+
+document.querySelectorAll(".btn:not(.disabled-btn)").forEach((btn) => {
+	btn.addEventListener("click", () => {
+		console.log("Clicked:", btn.textContent);
+	});
 const track = document.querySelector(".carousel__track");
 let slides = Array.from(document.querySelectorAll(".carousel__slide"));
 const prevBtn = document.querySelector(".carousel__nav--prev");
