@@ -1,3 +1,77 @@
+@font-face {
+    font-family: 'Dogica';
+    src: url('./fonts/dogica.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dogica', sans-serif;
+    background-color: black;
+    padding: 20px;
+    color: black;
+}
+
+main {
+    max-width: 100%;
+}
+
+
+.characters-section {
+    margin-bottom: 40px;
+}
+
+.characters-section__title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+.characters-section__scrollable {
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+    scroll-behavior: smooth;
+}
+
+.characters-section__scrollable::-webkit-scrollbar {
+    display: none;
+}
+
+
+.character-card {
+    background: #fff;
+    overflow: hidden;
+    display: flex;
+    width: 350px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.character-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(2, 215, 242, 0.3);
+}
+
+.character-card__image {
+    width: 140px;
+    height: 140px;
+}
+
+.character-card__info {
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+}
+
+.character-card__role {
+    margin-top: 8px;
 .socials {
     text-align: center;
     padding: 40px;
