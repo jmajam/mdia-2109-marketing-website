@@ -1,0 +1,60 @@
+@import "styles.css";
+
+body {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+/* ===========================
+   LINKS
+   =========================== */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #729aa1;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #dccd93;
+}
+
+.page-title {
+    text-align: center;
+}
+
+.trigger-section .page {
+    padding: 80px 0;
+    background: #0d0d0d;
+    color: white;
+    text-align: center;
+}
+
+.trigger-section .trigger-area {
+    padding: 60px;
+    margin: 60px auto;
+    width: 80%;
+    background: #913e3e;
+    border: 2px solid #444;
+    transition: 0.4s ease;
+}
+
+.trigger-section .trigger-area--fog:hover {
+    background: #300;
+    filter: brightness(0.7);
+}
+
+.trigger-section .trigger-area.glow-active {
+    box-shadow: 0 0 25px 5px #ff4444;
+    border-color: #ff4444;
+}
+
+.trigger-section .trigger-area.scroll-active {
+    transform: scale(1.05);
+}
